@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="CSM System Database Core/CSM System Database Core.csproj" />
+  <Project Path="CSM System Database Testing/CSM System Database Testing.csproj" />
+</Solution>
