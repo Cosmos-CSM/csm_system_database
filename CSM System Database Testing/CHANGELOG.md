@@ -1,6 +1,6 @@
-﻿# CSM System Database CHANGELOG
+﻿# CSM Security Database Testing CHANGELOG
 
-## [x.x.x] - xx.xx.xxxx
+## [x.x.x] - xx.xx-xxxx
 
 ### Init
 
@@ -10,5 +10,5 @@
 
 | Package                                 | Previous Version | New Version     |
 |:----------------------------------------|:----------------:|:---------------:|
-| CSM.Database.Core                       | -.-.-            | 7.0.0           |
-| Microsoft.EntityFrameworkCore.Design	  | -.-.-            | 10.0.10         |
+| CSM.Database.Testing                    | -.-.-            | 8.0.0           |
+| xunit.v3                                | -.-.-            | 3.2.2           |
