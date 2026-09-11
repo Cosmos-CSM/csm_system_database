@@ -5,7 +5,7 @@ using CSM_System_Database_Testing.Utils;
 namespace CSM_System_Database_Testing.Managers;
 
 /// <summary>
-///     Represents a test data storing handler for <see cref="CSM_Security_Database_Core.SecurityDatabase"/> entities.
+///     Represents a test data storing handler for <see cref="CSM_System_Database_Core.SystemDatabase"/> entities.
 /// </summary>
 public class StoreManager {
 
@@ -21,6 +21,11 @@ public class StoreManager {
         _storeManager = storeManager;
     }
 
+    /// <summary>
+    /// Create and store a new <see cref="EntityState"/> entity in the database.
+    /// </summary>
+    /// <param name="ref"></param>
+    /// <returns></returns>
     public async Task<EntityState> StoreEntityState(EntityState? @ref = null) {
         EntityState entityState = DraftUtils.EntityState(@ref);
         return await _storeManager.Store(entityState);

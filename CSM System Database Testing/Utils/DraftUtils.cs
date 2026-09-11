@@ -10,13 +10,13 @@ namespace CSM_System_Database_Testing.Utils;
 static public class DraftUtils
 {
     /// <summary>
-    ///     Drafts a <see cref="CSM_System_Database_Core.Entities.EntityState"/> data.
+    ///     Drafts a <see cref="EntityState"/> data.
     /// </summary>
     /// <param name="ref">
     ///     Default entity data.
     /// </param>
     /// <returns>
-    ///     A drafted <see cref="CSM_Security_Database_Core.Entities.EntityState"/>.
+    ///     A drafted <see cref="EntityState"/>.
     /// </returns>
     static public EntityState EntityState(EntityState? @ref = null)
     {
