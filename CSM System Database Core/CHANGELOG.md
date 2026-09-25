@@ -1,6 +1,6 @@
 ﻿# CSM System Database CHANGELOG
 
-## [x.x.x] - xx.xx.xxxx
+## [1.0.0] - 10.09.2026
 
 ### Init
 

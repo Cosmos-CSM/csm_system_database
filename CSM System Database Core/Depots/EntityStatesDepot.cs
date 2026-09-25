@@ -2,7 +2,7 @@
 using CSM_Database_Core.Entities.Abstractions.Interfaces;
 
 using CSM_Foundation_Core.Abstractions.Interfaces;
-using CSM_System_Database_Core;
+
 using CSM_System_Database_Core.Depots.Abstractions.Interfaces;
 using CSM_System_Database_Core.Entities;
 
@@ -10,8 +10,7 @@ namespace CSM_System_Database_Core.Depots;
 
 /// <inheritdoc cref="IEntityStatesDepot"/>
 public class EntityStatesDepot
-    : DepotBase<SystemDatabase, EntityState>, IEntityStatesDepot
-{
+    : DepotBase<SystemDatabase, EntityState>, IEntityStatesDepot {
 
     /// <summary>
     ///     Creates a new instance.
@@ -23,7 +22,6 @@ public class EntityStatesDepot
     ///     Data disposition context manager.
     /// </param>
     public EntityStatesDepot(SystemDatabase Database, IDisposer<IEntity>? Disposer)
-        : base(Database, Disposer)
-    {
+        : base(Database, Disposer) {
     }
 }
